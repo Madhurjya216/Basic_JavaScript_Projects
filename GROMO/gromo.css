@@ -1,0 +1,1179 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=DynaPuff:wght@400;500;600&family=Libre+Baskerville&family=Lobster&family=Mochiy+Pop+One&family=Nunito:wght@200;400;600&family=Playfair+Display&family=Poppins:wght@200;300&family=Raleway:wght@300&family=Ubuntu:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Ubuntu', sans-serif
+}
+
+/* <!-- ===================== Nav Icons ======================= --> */
+
+body{
+    margin: none;
+    background: black;
+    color: grey;
+}
+
+.dark{
+    background: white;
+    color: black;
+}
+
+.navbar{
+    background: white; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid transparent;
+    width: 100%;
+
+}
+
+.navbar a img {
+    width: 70px;
+    margin-top: 3px;
+}
+
+.nav a li {
+    list-style: none;
+    padding: 10px;
+    font-size: 25px;;
+    font-weight: 600;
+    margin-top: 13px;
+}
+
+.nav a li:hover{
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    text-decoration: none;
+}
+
+
+.nav a {
+    text-decoration: none;
+    color: red;;
+    transition: 0.5s;
+}
+
+.nav a:active {
+    color: white;
+}
+
+.nav ul {
+    display: inline-flex;
+    margin-top: -5px;
+}
+
+/* ==================== Icons =========================== */
+
+.icons {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-solid:active{
+    color: grey;
+}
+
+#check{
+    display: none;
+}
+
+.fa-bars {
+    display: none;
+}
+
+.to-btn{
+    background: red;
+    color: white;
+    font-size: 30px;
+    border-radius: 7px;;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: none;
+    position: fixed;
+    top: 90%;
+    right: 3%;;
+    cursor: pointer;
+    z-index: 1000;
+    transition: 0.5s;
+}
+
+.hr{
+    margin: 0px 45%;
+    height: 5px;
+    margin-bottom: 50px;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+}
+
+.fa-cloud-sun{
+    border: 1px solid black;
+    font-size: 17px;
+    padding: 7px;
+    border-radius: 10px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+/* =========================== Login form part =============================== */
+
+#login{
+    position: absolute;
+    top: -80%;
+    right: 4%;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;;
+    padding: 15px 25px;; 
+    box-shadow: 0.5px 0.5px 8px;;
+    border: none;
+    transition: 0.5s linear;
+    z-index: 500;
+    background: white;
+}
+
+#login.active{
+    top: 12%;
+}
+
+#login input{
+    margin-bottom: 10px;
+}
+
+#login h1{
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.icons .fa-user {
+    margin-right: 3px;
+    border: 0px solid black;
+    border-radius: 27%;
+    padding: 9px 13px;
+    font-size: 15px;
+    cursor: pointer;
+    background: rgb(150, 140, 140);
+    color: white;;
+}
+
+.text{
+    padding: 10px 35px;
+    margin-bottom: 5px;;
+    border-radius: 5px;
+    border: none;
+    background-color: whitesmoke;
+    color: black
+}
+
+form h1{
+    font-size: 30px;
+    margin-bottom: 10px;;
+}
+
+form a{
+    color: orangered;
+}
+
+form #para{
+    margin-bottom: 10px;;
+}
+
+form #btn{
+    padding: 8px 10px;;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    background: orangered;
+    color: white;
+}
+
+form #btn:active{
+    color: red;
+}
+
+/* ========================== Search form part =========================== */
+
+#search{
+    position: absolute;
+    top: -70%;
+    right: 5%;;
+    transition: 0.5s linear;
+    border: 0px solid black;
+    padding: 5px;
+    /* padding-top: 8px;  */
+    border-radius: 20px;
+    background: white;
+    box-shadow: 0.5px 0.5px 8px;
+    align-items: center;
+}
+
+#search.active{
+    top:12%
+}
+
+.fa-magnifying-glass{
+    margin-right: 3px;
+    border: 0px solid black;
+    border-radius: 27%;
+    padding: 9px 13px;
+    font-size: 15px;
+    cursor: pointer;
+    background: rgb(150, 140, 140);
+    color: white;
+}
+
+
+#search #s-input{
+    padding: 5px;
+    font-size: 15px;
+    /* border-radius: 10px; */
+    border: none;
+    outline: none;;
+}
+
+/* ============================= shopping form part ============================ */
+
+
+#shopping{
+    border: 0px solid black;;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 8px;
+    position: absolute;
+    top: -100%;
+    right: 5%;
+    transition: 0.5s linear;
+    z-index: 500;
+    background: white;
+}
+
+
+#shopping.active{
+    top: 12%;
+}
+
+.fa-cart-shopping{
+    margin-right: 3px;
+    border: 0px solid black;
+    border-radius: 27%;
+    padding: 9px 13px;
+    font-size: 15px;
+    cursor: pointer;
+    background: rgb(150, 140, 140);
+    color: white;
+}
+
+.cart{
+    display: flex;
+    align-items: center ;
+    margin: 10px 0px;
+    border: 0px solid black;
+    border-radius: 10px;
+    background: whitesmoke;
+    padding: 10px 15px;;
+}
+
+
+.cart-img{
+    width: 80px;
+    height: auto;
+}
+
+.cart .name{
+    margin-left: 15px;
+    margin-right: 25px;
+    padding: 5px  0px;
+
+}
+
+.cart .name p{
+    color: grey;
+    padding: 2px;
+}
+
+.cart-img2{
+    height: 100px;
+    background: transparent;
+}
+
+.fa-trash{
+    color: red;
+    cursor: pointer;
+}
+
+#shopping-hd{
+    text-align: center;
+    color: orange;
+    margin-bottom: 20px;
+}
+
+#cart-btn{
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    background: orange;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+#cart-btn:active{
+    color: orange;
+}
+/* ================================== Header part ====================================== */
+
+.bg-img{
+    background:  url(Images/bd-img.jpg) no-repeat;
+    width: 100%;
+    height: 65vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.heading{
+    text-align: center;
+    height: 100vh;
+    padding-top: 10%;
+}
+
+.heading h3{
+    padding: 10px 0px; 
+}
+
+.hd{
+    color: grey;
+    font-size: 25px;
+    font-family: 'poppins';
+    font-weight: 700;
+    margin-bottom: -13px;
+}
+
+#hd{
+    font-size: 50px;
+    font-family: 'poppins';
+    font-weight: 500;
+}
+
+#hd span{
+    color: red;
+    font-size: 45px;
+}
+
+
+/* ============================= Feature part ==================================== */
+
+
+main span{
+    color: red;;
+}
+
+#service span{
+    font-family: 'poppins';
+}
+
+/* .main{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}  */
+
+.main{
+    display: flex;
+    text-align: center;
+    /* width: 100%; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+} 
+
+/* .main-2{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+} */
+
+.feature{
+  border: 0px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0.5px 0.5px 8px;;
+  z-index: 100;
+  width: 23%;
+  margin: 0px 20px;
+  background: white;
+  margin-top: 10px;;
+}
+
+.fea{
+    margin-top: 20px;
+}
+
+main h1{
+    text-align: center;
+    padding-top: 70px; 
+    padding-bottom: 0px; 
+}
+
+.para2{
+    color: rgb(67, 67, 226);
+    font-weight: 700;
+    padding: 5px;
+    margin-bottom: 1px;;
+    font-size: 18px;
+}
+
+.feature button{
+    background: orange;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 130px;
+    height: 30px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.para3{
+    color: grey;
+    font-weight: 550;
+    margin-bottom: 1px;;
+}
+
+.bubble1{
+    border: 0px solid black;
+    border-radius: 50%;
+    box-shadow: 0.5px 0.5px 8px;
+    width: 250px;
+    height: 250px;
+    background: red;
+}
+
+.design1{
+    position: absolute;
+    left: 2%;
+    top: 99%;
+}
+
+.design2{
+    position: absolute;
+    left: 35%;
+    top: 135%;
+}
+
+.design3{
+    position: absolute;
+    left: 76%;
+    top: 115%;
+}
+
+/* ============================= Categories part =========================== */
+
+#categories span{
+    font-family: 'poppins';
+}
+
+.categories{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.categories-2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.categories-2 a{
+    text-decoration: none;;
+}
+
+.categories a{
+    text-decoration: none;;
+}
+
+.c-img{
+    height: 215px;   
+    width: 100%;
+}
+
+.f-img {
+    border-radius: 20px;
+    width: 100%;;;
+    height: 215px;
+}
+
+.feature-1{
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0.5px 0.5px 8px;;
+    margin: 0px 20px;
+    width: 20%;
+}
+
+.feature-1:hover{
+    transform: scale(108%);
+}
+
+
+.feature-1 button{
+    background: orange;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 130px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 15px;
+} 
+
+
+
+.discount{
+    margin-top: 50px;
+    border: 1px solid purple;
+    height: 400px;
+    background: url(Images/ad-bg.jpg)no-repeat;
+    background-size: 100%;
+    background-position: right center ;
+    width: 100%;
+    border: none;
+}
+
+#h1{
+    font-size: 60px;;
+    margin-bottom: 16px;
+    margin-top: 30px;
+    color: orange;
+    margin-left: 50%;
+}
+
+#h3{
+    font-size: 30px;;
+    margin-bottom: 20px;
+    color: white;
+    margin-left: 61%;
+
+}
+
+.discount a #btn{
+    padding: 10px 18px;
+    background: orange;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;;
+    cursor: pointer;
+    position: absolute;
+    left: 61%;
+    font-family: 'poppins';
+}
+
+.discount a #btn:hover{
+    background: orangered;
+}
+
+
+
+/* ============================= Products Part ================================= */
+
+#products span{
+    font-family: 'poppins';
+}
+
+.product-slide{
+    display: flex;
+    /* margin-left: 10px; */
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    /* flex-wrap: wrap; */
+}
+
+.product-slide2{
+    display: flex;
+    text-align: center;
+    /* margin-left: 70px; */
+    justify-content: center;
+    width: 100%;
+    /* flex-wrap: wrap; */
+}
+
+/* .p-img{
+    height: 150px;
+    width: 150px;;
+} */
+
+.feature-2 img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.feature-2{
+    text-align: center;
+    border: 0px solid black;
+    border-radius: 15px;;
+    padding: 10px;
+    box-shadow: 0.5px 0.5px 8px;;
+    margin: 20px;
+    width: 250px;
+    z-index: 100;
+    background: white;
+}
+
+.feature-2 button{
+    background: orange;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 130px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.p-img{
+    height: 200px;
+}
+
+.products{
+    padding: 100px;
+}
+
+.main-img{
+    height: 200px;
+    width: 200px;
+}
+
+.bg{
+    background: url(https://img.freepik.com/premium-vector/hand-drawn-doodle-vegetable-collection_24595-250.jpg?w=2000), no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 269vh;
+    opacity: 0.3;
+    position: absolute;
+    top: 357%;
+}
+
+.para-hd{
+    text-align: center;
+    color: purple;
+    font-size: 25px;
+    font-family: 'poppins';
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+/* =============================== Customer Reviews =================================== */
+
+#reviews span{
+    font-family: 'poppins';
+    z-index: 100;
+}
+
+#reviews{
+    margin-top: 15px;
+    z-index: 100;
+}
+
+.r-img{
+    border-radius: 50%;
+}
+
+.reviews{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.reviews-2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.feature-3 p i{
+    margin-top: 10px;
+}
+
+.feature-3 img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.feature-3{
+    text-align: center;
+    border: 0px solid black;
+    border-radius: 15px;;
+    padding: 10px;
+    box-shadow: 0.5px 0.5px 8px;;
+    margin: 20px;
+    width: 350px;
+    height: 350px;
+    z-index: 100;
+    background: white;
+}
+
+.fa-star{
+    color: gold;
+    margin-bottom: 10px;
+}
+
+
+/* =============================== Contact part =================================== */
+
+#contact span{
+    font-family: 'poppins';
+}
+
+.contact-flex{
+    display: flex;;
+    margin: 0;
+    justify-content: center;
+}
+
+#contact{
+    text-align: center;
+    width: 100%;
+}
+
+.contact-form{
+    border: 0px solid black;
+    padding: 15px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    background: url(https://img.freepik.com/free-photo/old-shabby-concrete-wall-texture-with-cracked-purple-concrete-studio-wall-abstract-grunge-background_1258-73039.jpg?size=626&ext=jpg&ga=GA1.2.1145224334.1665120416&semt=sph);
+    width: 130%;
+    box-shadow: 0.5px 0.5px 8px purple;
+    margin-left: 5px;
+    margin: none;;
+    /* background: none; */
+}
+
+.contact-form h2{
+    color: white;
+}
+
+.contact-form .contact-inp{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;;
+    padding-left: 10px;;
+    font-size: 15px;;
+    margin-bottom: 10px;;
+    font-family: 'poppins';
+}
+
+.contact-form textarea{
+    outline: none;
+    border: none;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 15px;;
+    margin-bottom: 10px;;
+    border-radius: 5px;
+    font-family: 'poppins';
+}
+
+.contact-form .btn{
+    background: orangered;
+    outline: none;
+    /* border: none; */
+    color: white !important;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px 20px;;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form .btn:active{
+    background-color: green;
+    border: none;
+}
+
+.map{
+    margin-left: 110px;
+}
+
+
+
+
+/* =============================== footer part ================================== */
+
+/* =============================== footer-1 part ================================== */
+
+footer{
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    justify-content: space-around; 
+    /* background: whitesmoke; */
+}
+
+footer h3{
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.footer-1 .f-logo{
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+.footer-1 .fa-brands{
+    margin-top: 10px;
+}
+
+.footer-1 .fa-brands:hover{
+    background: red;
+}
+
+.footer-1 .fa-brands{
+    background: orangered;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.footer-1 p{
+    font-weight: 500;
+    font-family: 'poppins'
+}
+
+#para-last{
+    color: grey;
+    text-align: center;
+    font-family: 'poppins';
+    padding-top: 20px;
+    padding-bottom: 30px;
+    align-items: center;
+    /* background: whitesmoke; */
+}
+
+/* =============================== footer-2 part ================================== */
+
+.footer-2 p{
+    padding: 5px;
+    color: rgb(101, 101, 101);
+    font-family: 'poppins';
+    font-weight: 600;
+}
+
+/* =============================== footer-3 part ================================== */
+
+.footer-3 p{
+    padding: 5px;
+    font-family: 'poppins';
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.footer-3 p a{
+    text-decoration: none;
+    color: rgb(101, 101, 101);
+}
+
+.footer-3 p a:hover{
+    color: orangered;
+}
+
+/* =============================== footer-4 part ================================== */
+
+
+.footer-4 .fo-img{
+    width: 60px;
+}
+
+.footer-4 .footer-img{
+    width: 120px;
+    cursor: pointer;
+}
+
+.footer-4 p{
+    padding: 5px;
+    color: rgb(101, 101, 101);
+    font-family: 'poppins';
+    font-weight: 600;
+}
+
+
+
+/* =============================== Scroll bar design =================================== */
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: orangered; 
+    border-radius: 3px;
+}
+
+
+
+
+/* =============================== Coupon code =================================== */
+
+
+/* =============================== weather code =================================== */
+
+
+#weather-icon{
+    width: 35px;
+    height: 35px;
+    margin-right: 3px;
+}
+
+.weather{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 3px 8px;
+    margin-right: 5px;
+    align-items: center;
+}
+
+.wea-p{
+    font-size: 20px;;
+    font-family: 'poppins';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================== Media queries ============================= */
+
+
+/* @media(max-width: 900px){
+
+    .nav ul li{
+        font-size: 15px;;
+        padding: 5px;
+        display: none
+    }
+
+    #hd{
+        font-size: 30px;;
+    }
+
+    .hd{
+        font-size: 20px;;
+    }
+
+    .heading{
+        align-items: center;
+    }
+
+    .feature{
+        width: 30%;
+    }
+
+    .categories{
+        display: block;
+        display: grid;
+        grid-template-columns: 500px 500px;
+        grid-gap: 30px;
+    } 
+
+    .contact-flex{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    footer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-hd{
+        margin-top: 20px;
+    }
+
+} */
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+
+    html{
+        margin: 0px;
+    }
+    .nav ul li{
+        display: none;
+    }
+
+    #hd{
+        font-size: 20px;;
+    }
+
+    .hd{
+        font-size: 15px;;
+    }
+
+    .main{
+        flex-direction: column;
+    }
+
+    .feature{
+        width: 300px;
+    }
+
+    .categories{
+        flex-direction: column;
+    }
+
+    .feature-1{
+        width: 250px;
+        margin-top: 10px;
+    }
+
+    .product-slide{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .product-slide2{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .reviews{
+        flex-direction: column;
+        text-align: center;
+        margin-left: 25%;
+    }
+
+    .reviews-2{
+        flex-direction: column;
+        text-align: center;
+        margin-left: 25%;
+    }
+
+    .contact-flex{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-form{
+        width: 300px;
+    }
+
+    .map{
+        width: 400px;
+        margin-top: 10px;
+        margin-left: 30%;
+    }
+
+    footer{
+        flex-direction: column;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .footer-hd{
+        margin-top: 20px;
+    }
+
+    #para-last{
+        font-size: 12px;
+    }
+
+    .bubble1{
+        display: none;
+    }
+
+    .to-btn{
+        right: 20%
+    }
+
+    .text{
+        font-size: 10px;
+    }  
+    
+    .discount{
+        z-index: 100;
+    }
+
+    .feature-2{
+        margin-left: 34%;
+    }
+
+    .heading{
+        padding-top: 500px;;
+    }
+
+}

@@ -1,0 +1,38 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+#bulbon{
+    position: absolute;
+    left: 46.2%;
+    display: none;
+}
+
+img{
+    cursor: pointer;
+}
+
+#btn-1{
+position: absolute;
+left: 38%;
+top: 60%;
+}
+
+#btn-2{
+position: absolute;
+top: 60%;
+left: 57%;
+}
+
+button{
+background: orangered;
+color: white;
+border: none;
+padding: 10px 15px;
+cursor: pointer;
+border-radius: 10px;
+font-size: 15px;
+}

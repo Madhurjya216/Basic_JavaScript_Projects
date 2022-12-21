@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100;200;300;400;500&family=Arimo:ital@1&family=DynaPuff:wght@400;500;600&family=Fasthand&family=Libre+Baskerville&family=Lobster&family=Mochiy+Pop+One&family=Montserrat:wght@100;300;400;500;600;700&family=Nunito:wght@200;300;400;500;600;700;800;900&family=Playfair+Display&family=Poppins:wght@100;200;300;400;500;700&family=Raleway:wght@300&family=Ubuntu:wght@300;400&display=swap');
+
+body{
+    background: whitesmoke;
+    margin-top: 20%;
+    font-family: 'Nunito';
+  }
+  
+  h1{
+    color: grey;
+    text-align: center;
+  }
+  
+  hr{
+    margin: 0px 40%;
+    padding: 1px 0px;
+    background: silver;
+  }
+  
+  .container{
+    color: grey;
+    text-align: center;
+    display: flex;
+    margin-left: 28%;
+    border: 1px solid black;
+    width: 30.6%;
+    padding: 10px;
+    border-radius: 10px;
+    background: white; 
+    width: 41.5vw;
+  }
+  
+  input{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+    font-size: 20px;
+    color: black;
+  }
+
+  p{
+    font-size: 20px;
+    font-weight: 700;
+  }

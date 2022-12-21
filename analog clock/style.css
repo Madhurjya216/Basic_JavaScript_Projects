@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=DynaPuff:wght@400;500;600&family=Libre+Baskerville&family=Lobster&family=Mochiy+Pop+One&family=Nunito:wght@200;400;600&family=Playfair+Display&family=Poppins:wght@200;300&family=Raleway:wght@300&family=Ubuntu:wght@300;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;;
+}
+
+h1{
+    padding-top: 90px;
+    font-family: 'poppins';
+}
+
+span{
+    /* border: 1px solid black; */
+    padding: 10px;
+    border-radius: 10px;
+    background: orangered;
+    color: white;
+    box-shadow: 0.5px 0.5px 10px purple;   
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;;
+}
+
+.contain{
+    margin-top: 50px;
+    background: url("https://t3.ftcdn.net/jpg/03/90/82/32/240_F_390823269_4MIgs6MDkkxnbUn1Fn69L3e7cTYFeviY.jpg") no-repeat;
+    background-size:contain;
+    background-position: center;
+    width: 60vw;;
+    height: 60vh
+}
+
+.arrow{
+    transform-origin: bottom;
+}
+
+#hour{
+    width: 8px;
+    height: 90px;
+    background: black;
+    position: absolute;
+    top: 40.5%;;
+    left: 49.72%;
+}
+
+#minute{
+    width: 8px;
+    height: 150px;
+    background: black;
+    position: absolute;
+    top: 32%;
+    left: 49.7%;
+}
+
+#second{
+    width: 8px;
+    height: 120px;
+    background: black;
+    position: absolute;
+    top: 36%;;
+    left: 49.72%;
+} 
+
+/* animation: rotate linear 10s infinite; */
+
+/* @keyframes rotate {
+    100%{
+        transform: rotate(360deg);
+    }
+} */
+
+
+
+@media (max-width: 770px){
+    span{
+        padding: 25px;
+    }
+
+    #minute{
+        top: 31%;
+        left: 49.2%;
+    }
+
+    #hour{
+       top: 36.1%;
+       left: 60.80%;
+    }
+
+    #second{
+        top: 32.7%;
+        left: 49.70%;
+    }
+}
