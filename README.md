@@ -3,7 +3,7 @@ Way to master a skill is to practice*3...
 
 #Project 1:<br> 
 Digital clock<br>
-live link: <a href="my-dclock.netlify.app"></a>
+live link: <a href="my-dclock.netlify.app">Digital clock</a>
 
 #Project 2:<br> 
 Analog clock<br>
