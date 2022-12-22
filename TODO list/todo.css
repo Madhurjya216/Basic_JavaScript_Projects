@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=DynaPuff:wght@400;500;600&family=Libre+Baskerville&family=Lobster&family=Mochiy+Pop+One&family=Playfair+Display&family=Poppins:wght@200&family=Raleway:wght@300&family=Ubuntu:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+
+}
+
+.main{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background: whitesmoke;
+}
+
+.input{
+    align-items: center;
+}
+
+
+.fa-trash{
+    position: absolute;
+    right: 39%;
+    padding: 4px;
+    font-size: 23px;
+    border: none;
+    color: red;
+}
+
+.check{
+    display: flex;
+    padding: 5px;
+    margin: 5px;;
+    border-radius: 9px;
+    padding: 10px;
+    align-items: center;
+    background: white;
+}
+
+.main-hd{
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;;
+    color: black;
+}
+
+.text{
+    padding: 3px;
+    font-size: 20px;;
+}
+
+
+/* ============================ */
+
+
+.para-style{
+    text-align: left;
+    margin: 3px;
+    color: red;
+    font-size: 20px;
+}
+
+#btn{
+  padding: 3px 10px;
+  font-size: 25px; 
+  background: orangered;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+}
