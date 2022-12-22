@@ -1,31 +1,31 @@
 # Basic_JavaScript_Projects
 Way to master a skill is to practice*3...
 
-#Project 1: 
-Digital clock
+#Project 1:<br> 
+Digital clock<br>
 live link: my-dclock.netlify.app
 
-#Project 2: 
-Analog clock
+#Project 2:<br> 
+Analog clock<br>
 live link: my-aclock.netlify.app
 
-#Project 3: 
-Calculator
+#Project 3:<br> 
+Calculator<br>
 live link: my-calculatorwebapp.netlify.app
 
 
-#Project 4: 
-BMI Calculator
+#Project 4:<br> 
+BMI Calculator<br>
 live link: my-bmiwebapp.netlify.app
 
-#Project 5: 
-TODO List
+#Project 5:<br> 
+TODO List<br>
 live link: my-todolistwebapp.netlify.app
 
-#Project 6: 
-Unit converter
+#Project 6:<br>
+Unit converter<br>
 live link: my-unitconverter.netlify.app
 
-#Project 6: 
+#Project 6:<br>
 Car animation<br>
 live link: my-caranimation.netlify.app
