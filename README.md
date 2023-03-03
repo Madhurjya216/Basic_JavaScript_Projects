@@ -29,3 +29,7 @@ live link: https://my-unitconverter.netlify.app
 # Project 6:<br>
 Car animation<br>
 live link: https://my-caranimation.netlify.app
+
+# Project 6:<br>
+Weather app<br>
+live link: hhttps://weather-app98646.netlify.app
