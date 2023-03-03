@@ -32,4 +32,4 @@ live link: https://my-caranimation.netlify.app
 
 # Project 6:<br>
 Weather app<br>
-live link: hhttps://weather-app98646.netlify.app
+live link: https://weather-app98646.netlify.app
